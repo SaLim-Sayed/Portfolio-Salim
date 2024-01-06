@@ -11,13 +11,13 @@ const Hero = ({}: IProps) => {
   return (
     <div className=" bg-black ">
       <div className=" flex flex-col gap-4 justify-between  items-center md:items-start p-5 md:pl-52  h-[300px]   text-white">
-        <div className=" flex items-center justify-center">
-          <h1 className="text-5xl  pt-12 ">
-            Hi I'm{" "}
-            <span className="text-orange-500">
-              <Typewriter text="a Frontend Developer" loop delay={200} />
-            </span>
+        <div className="    text-5xl  pt-12    ">
+          <h1 className="">
+            Hello  👋 I'm  <span className="text-orange-500 ">
+            <Typewriter text="a Frontend Developer" loop delay={200} />
+          </span>
           </h1>
+          
         </div>
         <div className="flex gap-4">
           <Button color="primary" size="lg">
