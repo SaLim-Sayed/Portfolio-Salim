@@ -22,7 +22,7 @@ const Hero = ({}: IProps) => {
         <div className="flex gap-4">
           <Button color="primary" size="lg">
             <Link
-              href="https://api.whatsapp.com/send?phone=01062913674"
+              href="https://api.whatsapp.com/send?phone=+201062913674"
               rel="noreferrer"
               target="_blank"
             >
