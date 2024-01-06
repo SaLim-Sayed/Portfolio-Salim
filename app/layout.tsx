@@ -4,6 +4,7 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import HydrationZustand from "@/components/Global/HydrationZustand";
 import NextUi from "@/components/Global/NextUi";
+import MainLoader from "@/components/Global/MainLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NextUi>
-          <HydrationZustand LoaderComponent={<div>Loading...</div>}>
+          <HydrationZustand LoaderComponent={<MainLoader/>}>
             <Sidebar />
             {children}
           </HydrationZustand>
