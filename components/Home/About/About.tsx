@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-center  bg-slate-100 " id="about">
         <Title title="About Me" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 p-5 md:pl-52 ">
+        <div className="grid grid-cols-1 items-center justify-center  md:grid-cols-2 p-5 md:pl-52 ">
           <Image
             isZoomed
             src="logo.jpg"
