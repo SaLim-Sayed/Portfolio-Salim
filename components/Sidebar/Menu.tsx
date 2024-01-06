@@ -14,8 +14,8 @@ const Menu = () => {
       <div className="p-2 flex justify-center">
         <div className="flex flex-col items-center gap-8 px-2">
           <Button
-          isIconOnly
-          radius="full"
+            isIconOnly
+            radius="full"
             variant="light"
             size={toggle ? "sm" : "md"}
             className={cn("  shadow-md ", toggle ? "w-16 h-16" : "w-32 h-32")}
@@ -26,12 +26,13 @@ const Menu = () => {
             {links.map((link) => {
               return (
                 <Button
-                isIconOnly
+                  isIconOnly
                   size={toggle ? "sm" : "md"}
                   variant="light"
                   key={link.id}
-                  className={cn("flex items-center justify-start text-white gap-2",
-                  toggle?"w-8 ":"w-40 "
+                  className={cn(
+                    "flex items-center justify-start text-white gap-2",
+                    toggle ? "w-8 " : "w-40 "
                   )}
                 >
                   <Link href={link.url} title={toggle ? link.title : ""}>
